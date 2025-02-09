@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeakoutCealians - Stop Bullying</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>COLLEGE OF ENGINEERING ATTINGAL</h1>
+        <h3><marquee style=color:floralwhite direction="right">REPORT -- HEAL -- EMPOWER!</marquee></h3>
+    </header>
+
+    <section class="intro">
+        <h2>Stand Strong, Speak Up, Stop Bullying!</h2>
+        <p>We, students of the College of Engineering Attingal, present our SpeakOutCealians website—a safe, confidential platform to report bullying, seek support, and access valuable resources.</p>
+        <p>Join our community to raise awareness and take action. Together, we can make a difference because <strong>kindness is stronger than hate!</strong></p>
+    </section>
+
+    <section class="features">
+        <h3>WHY CHOOSE US?</h3>
+        <ul>
+            <li><strong>Empowering Resources:</strong> Learn how to identify, prevent, and report bullying.</li>
+            <li><strong>Support Community:</strong> Connect with others who have faced similar challenges.</li>
+            <li><strong>Legal Guidance:</strong> Understand your rights and legal actions available under Indian law.</li>
+            <li><strong>Reporting Assistance:</strong> Know where and how to report bullying in schools and online.</li>
+        </ul>
+    </section>
+
+    <section class="key-features">
+        <h3>KEY FEATURES:</h3>
+        <ul>
+            <li><strong>Anonymous Reporting:</strong> Securely report bullying incidents without revealing your identity.</li>
+            <li><strong>Support & Guidance:</strong> Access expert advice, self-help resources, and mental health support.</li>
+            <li><strong>Emergency Contacts:</strong> Quick access to professional counselors and helplines.</li>
+        </ul>
+    </section>
+
+    <section class="legal">
+        <h3>UGC Anti-Ragging Regulations (2009)</h3>
+        <ul>
+            <li>Ragging is a punishable offense under the University Grants Commission (UGC) Regulations.</li>
+            <li>Expulsion, suspension, and legal action for offenders.</li>
+            <li>Imprisonment (up to 3 years) and fine (₹50,000) under IPC.</li>
+        </ul>
+
+        <h3>Indian Penal Code (IPC) Sections</h3>
+        <ul>
+            <li><strong>Section 323 & 325:</strong> Punishment for causing hurt.</li>
+            <li><strong>Section 506:</strong> Criminal intimidation (threatening someone).</li>
+            <li><strong>Section 509:</strong> Outraging the modesty of a woman (gender-based harassment).</li>
+        </ul>
+    </section>
+
+    <section class="action-buttons">
+        <button id="reportIssue">Report Issue</button>
+        <button id="helpline">Next</button>
+    </section>
+
+    <h1 class="slogan">Your Voice Matters, Speak Up!</h1>
+
+    <footer>
+        <p>© <span id="year"></span> SpeakOutCealians - Anti-Bullying Initiative. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        document.getElementById("reportIssue").addEventListener("click", () => {
+            window.location.href = "reportissue.html";
+        });
+
+        document.getElementById("helpline").addEventListener("click", () => {
+            window.location.href = "helpline.html";
+        });
+    </script>
+
+</body>
+</html>
+
+

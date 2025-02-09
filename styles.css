@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #081064;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+marquee {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #081064;
+    text-align: center;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('checkmark.png') left center no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+
+/* Buttons */
+.action-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #081064;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #050c45;
+}
+
+/* Slogan */
+.slogan {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #081064;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

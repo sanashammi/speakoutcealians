@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Description</title>
+</head>
+<body>
+
+    <h2>Report an Issue</h2>
+    <form action="https://formspree.io/f/xjkgopkz" method="POST" id="reportForm">
+        <label for="description">Describe the Issue:</label><br>
+        <textarea id="description" name="description" rows="5" cols="50" placeholder="Enter details here... 
+1.Keep a Detailed Record.
+2.Write down every incident with dates, times, locations, and what happened.
+3.Include the names or descriptions of people involved.
+4.Note how the bullying made you feel and any consequences (e.g., stress, fear, or missed work/school).
+5.If online, describe where the messages or posts appeared, even if you didn’t save them." required></textarea><br>
+        <button type="submit">Submit</button>  
+        <button type="button" onclick="goBack()">Go Back</button>
+    </form>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+</html>
